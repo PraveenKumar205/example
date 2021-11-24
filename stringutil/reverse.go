@@ -36,7 +36,7 @@ func Dummyfunction2(s string) string {
 	return s
 }
 
-func Dummyfunction3(s string) string {
+func NewFunction(s string) string {
 	log.Println("changes")
 	return s
 }

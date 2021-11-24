@@ -42,10 +42,10 @@ func TestDummyfunction(t *testing.T) {
 	}
 }
 
-func TestDummyfunction3(t *testing.T) {
+func TestNewFunction(t *testing.T) {
 	in := "Hi"
-	want := "Hello"
-	got := Dummyfunction3(in)
+	want := "Hii"
+	got := NewFunction(in)
 	if got != want {
 		t.Errorf("Error ")
 	}
