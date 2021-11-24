@@ -41,3 +41,12 @@ func TestDummyfunction(t *testing.T) {
 		t.Errorf("Error ")
 	}
 }
+
+func TestNewFunction(t *testing.T) {
+	in := "Hi"
+	want := "Hii"
+	got := NewFunction(in)
+	if got != want {
+		t.Errorf("Error ")
+	}
+}
