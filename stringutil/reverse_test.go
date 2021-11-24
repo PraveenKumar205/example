@@ -44,7 +44,7 @@ func TestDummyfunction(t *testing.T) {
 
 func TestNewFunction(t *testing.T) {
 	in := "Hi"
-	want := "Hi"
+	want := "Hii"
 	got := NewFunction(in)
 	if got != want {
 		t.Errorf("Error ")
